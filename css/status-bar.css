@@ -1,8 +1,16 @@
 .status-bar{
+    position:sticky;
+    width:100%;
+    padding:10px 50px;
+    top:0px;
+    left:0px;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #f7f7f7;
+
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    opacity: 0.7;
+
 }
 
 .status-bar i{

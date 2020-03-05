@@ -3,6 +3,13 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
+@import "nav-bar.css";
+@import "chat.css";
+
+
+*{
+    box-sizing:border-box;
+}
 /* 
     모든 브라우저의 style 을 따르지 않고 통일된 크기를 정해주기 위해서 reset 사용
 */
@@ -12,6 +19,7 @@ body{
     padding:10px 20px;
     color:#020202;
     font-family: "Noto Sans KR" ;
+
 }
 
 a{

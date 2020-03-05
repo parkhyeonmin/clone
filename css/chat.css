@@ -1,0 +1,15 @@
+.chat{
+    display:flex;
+}
+.chat__write{
+    background-color: #f2f2f2;
+    display:flex;
+    position:sticky;
+    width:100%;
+    height:30px;
+    bottom:0px;
+}
+.chat__write .chat__write-input{
+    width:800%;
+    padding-right: 10px;
+}
