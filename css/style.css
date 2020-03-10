@@ -5,6 +5,7 @@
 @import "header.css";
 @import "nav-bar.css";
 @import "chat.css";
+@import "friends.css";
 
 
 *{
@@ -24,8 +25,4 @@ body{
 
 a{
     color:inherit;
-}
-
-.g-avartar{
-    
 }
