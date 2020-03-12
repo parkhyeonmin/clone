@@ -1,0 +1,41 @@
+ <ul class="friends__list">
+                    <h5 class="friends__title">Friends 14</h5>
+
+                    <li class="friends__friend friend friend--lg">
+
+	                    <div class="friend__column">
+                        			<span class="friend__column-info">
+                        				<img src="yuri2.jpg" alt="" class="g-avatar friend__avatar">
+                            				Yuri
+                            				Wiz.아이즈원♥
+                        			</span>
+                        			
+				<div class="friend__now-listening">
+                            		<span>
+                            			FTISLAND (FT NomadCoders)
+                            		</span>
+                            		<i class="fas fa-play"></i>
+                        	</div>
+                    </div>
+                </div>
+             </li>
+            </ul>
+
+-----------------------------------------------------------------------
+ <ul class="friends__list">
+                    <h5 class="friends__title">Friends 14</h5>
+
+                    <li class="friends__friend friend friend--lg">
+		<div class="friend__column">
+			<img src="turi2.jpg" class="g-avatar friend__avatar" />
+			<div class="friend__column__info">
+				<span>
+				Yuri<br>Wiz.아이즈원♡
+				</span>
+				<span class="friend__column__info-playlist">
+				FTISLAND(FT NomadCoders)
+				</span>
+			</div>
+		</div>
+	</li>
+</ul>

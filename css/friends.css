@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.friend__main .friend__avatar{
+.friend .friend__avatar{
     width:50px;
     height:50px;
     border-radius:35%
@@ -17,3 +17,24 @@
     width:100px;
     height:100px;
 }*/
+.friend__column{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.friend__content{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+}
+li{
+    display:flex;
+}
+img{
+    width
+}
+.friend__column{
+    width:
+    display:flex;
+    justify-content: space-between;
+}
