@@ -6,7 +6,7 @@ chats-body{
     padding:0px 20px;
 }
 
-.chat{
+.chat-screen{
     background-image: url("../chatBg.png");
     min-height: 100vh;
 
@@ -46,4 +46,26 @@ chats-body{
 }
 .chat__wirte-colummn input:focus{
     border:none;
+}
+.chat-screen .chat__messages{
+    border-top: 1px solid #f7f7f7;
+
+    padding-top:30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chat__messages .chat__timestamp{
+    background-color: white;
+    font-size:14px;
+    padding : 5px 10px;
+    border-radius:10px;
+    margin-bottom:30px;
+}
+.chat__messages .message__bubble{
+    background-color: #f2f2f2;
+    width:100%;
+    border: 1px solid #7f7f7f;
+    padding:5px 10px;
+    margin-top:7px;
 }
