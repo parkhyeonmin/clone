@@ -4,11 +4,11 @@
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
-@import "chat.css";
 @import "friends.css";
-@import "freind.css";
+@import "friend.css";
 @import "more.css";
 @import "settings.css";
+@import "chat.css";
 
 
 *{

@@ -1,5 +1,6 @@
 .status-bar{
-    position:sticky;
+    position: fixed;
+    align-content: flex-start;
     width:100%;
     padding:10px 50px;
     top:0px;

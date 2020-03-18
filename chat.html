@@ -10,9 +10,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css">
-    <title>Settings | KAKAO CLONE</title>
+    <title>Chat | KAKAO CLONE</title>
     </head>
-<body>
+<body class="chats-body">
     <div class="status-bar">
         <span class="status-bar__clock">13:53</span>
         <div class="status-bar__column">
@@ -28,10 +28,10 @@
             <a href="chats.html" class="header__back-btn">
                 <i class="fas fa-arrow-left"></i>
                 </a>
-            <h1 class="header__title">Girl friend</h1>
+            <h1 class="header__title">Yuri</h1>
         </div>
 
-        <div class="header__header__column">
+        <div class="header__header-column">
             <span class="header__icon">
                 <i class="fas fa-search"></i>
             </span>
@@ -49,9 +49,9 @@
                 <span class="chat__timestamp">Friday, January 11, 2019</span>
                 <!--나에게 온 메세지 표기-->
                 <li class="incoming-message message">
-                    <img src="yuri2.jpg" class="g-avatar message_avatar">
+                    <img src="yuri2.jpg" class="m-avatar message__avatar">
                     <div class="message__content">
-                        <span class="message_author">Girl Friend</span>
+                        <span class="message_author">Yuri</span>
                         <div class="message__bubble">
                             Congrats I love you!
                         </div>
@@ -72,18 +72,18 @@
         
         <!--쳇 섹션-->
       <div class="chat__write">
-          <div class="chat__write__column">
+          <div class="chat__write-column">
             <i class="far fa-plus-square"></i>
           </div>
-          <div class="chat__write__column">
+          <div class="chat__write-column">
               <!--채팅 입력박스 input박스 사용-->
               <input type="text" placeholder="Send Message" class="chat__write-input">
           </div>
-          <div class="chat__write__column">
-              <span class="chat__wirte-icon">
+          <div class="chat__write-column">
+              <span class="chat__write-icon">
                   <i class="far fa-smile-wink"></i>
               </span>
-              <span class="chat__wirte-icon">
+              <span class="chat__write-icon">
                 <i class="fas fa-microphone"></i>
               </span>
           </div>
