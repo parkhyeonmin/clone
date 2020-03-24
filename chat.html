@@ -12,61 +12,81 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Chat | KAKAO CLONE</title>
     </head>
-<body class="chats-body">
-    <div class="status-bar">
-        <span class="status-bar__clock">13:53</span>
-        <div class="status-bar__column">
-            <i class="fas fa-clock"></i>
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <i class="fas fa-battery-full"></i>
-        <span class="span status-bar__battery-level">100%</span>
-        </div>
-    </div>
-    <header class="header">
-        <div class="header__header-column">
-            <a href="chats.html" class="header__back-btn">
+   
+    <body class="chats-body">
+        <div class="header-wrapper">
+          <div class="status-bar">
+            <div class="status-bar__column">
+              <span class="status-bar__clock">00:00</span>
+            </div>
+            <div class="status-bar__column">
+              <i class="fas fa-clock"></i>
+              <i class="fas fa-volume-mute"></i>
+              <i class="fas fa-wifi"></i>
+              <span class="status-bar__battery-level">100%</span>
+              <i class="fas fa-battery-full"></i>
+            </div>
+          </div>
+          <header class="header">
+            <div class="header__header-column">
+              <a href="index.html" class="header__back-btn">
                 <i class="fas fa-arrow-left"></i>
-                </a>
-            <h1 class="header__title">Yuri</h1>
-        </div>
-
-        <div class="header__header-column">
-            <span class="header__icon">
+              </a>
+              <h1 class="header__title">Yuri</h1>
+            </div>
+            <div class="header__header-column">
+              <span class="header__icon">
                 <i class="fas fa-search"></i>
-            </span>
-            <span class="header__icon">
+              </span>
+              <span class="header__icon">
                 <i class="fas fa-bars"></i>
-            </span>
+              </span>
+            </div>
+          </header>
         </div>
 
-    </header>
 
         <!--메인파트-->
         <main class="chat-screen">
             <ul class="chat__messages">
                 <!--타임스탬프-->
-                <span class="chat__timestamp">Friday, January 11, 2019</span>
+                <span class="chat__timestamp">Wednesday, March 25, 2020</span>
                 <!--나에게 온 메세지 표기-->
                 <li class="incoming-message message">
                     <img src="yuri2.jpg" class="m-avatar message__avatar">
                     <div class="message__content">
-                        <span class="message_author">Yuri</span>
-                        <div class="message__bubble">
+                        <span class="message__bubble">
                             Congrats I love you!
-                        </div>
+                        </span>
+                        <span class="message_author">Yuri</span>
                     </div>
                 </li>
                 <!--내가 보낸 메세지 출력-->
                 <li class="sent-message message">
                     <div class="message__content">
-                        <div class="message__bubble">
+                        <span class="message__bubble">
                             Thx :) See you soon!
-                        </div>
+                        </span>
                     </div>
                 </li>
-            </ul>
-        </main>
+                <li class="incoming-message message">
+                    <img src="yuri2.jpg" class="m-avatar message__avatar" />
+                    <div class="message__content">
+                        <span class="message__bubble">
+                        Congrats I love you!
+                    </span>
+                    <span class="message_author">Yuri</span>
+                </div>
+            </li>
+            <li class="sent-message message">
+                <div class="message__content">
+                    <span class="message__bubble">
+                        Thank you see you soon!
+                    </span>
+                </div>
+            </li>
+        </ul>
+    </main>
         
         <!--쳇 섹션-->
       <div class="chat__write">
